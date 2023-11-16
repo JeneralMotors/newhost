@@ -26,7 +26,7 @@ fi
 echo -e "$newip\t$newhost" >> /etc/hosts
 
 if [ "$?" -eq 0 ]; then
-    echo -e "\nSUCCESS adding string \"$newip $newhost\" to /etc/hosts!"
+    echo -e "\nSUCCESS adding string $newip $newhost to /etc/hosts!"
 else
-    echo -e "\nERROR adding string \"$newip $newhost\" to /etc/hosts!"
+    echo -e "\nERROR adding string $newip $newhost to /etc/hosts!"
 fi
