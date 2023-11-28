@@ -7,4 +7,4 @@ The **newhost** script facilitates the addition of a new entry to the `/etc/host
 To use the script, follow the format below:
 
 ```bash
-sudo newhost "IP" "hostname"
+sudo newhost <IP> <hostname>
