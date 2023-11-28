@@ -1,6 +1,6 @@
-# NewHost
+# newhost
 
-The **NewHost** script facilitates the addition of a new entry to the `/etc/hosts` file, linking a specified IP address to a given hostname. Upon execution, the script provides feedback on the success or failure of the operation.
+The **newhost** script facilitates the addition of a new entry to the `/etc/hosts` file, linking a specified IP address to a given hostname. Upon execution, the script provides feedback on the success or failure of the operation.
 
 ## Usage
 
