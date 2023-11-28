@@ -1,9 +1,10 @@
-# newhost
-This bash script will append an entry to the /etc/hosts file, associating the provided IP and hostname. You will see a message indicating whether the operation was successful or not.
+# NewHost
 
-The script is designed to take an ip address as argument 1 and a hostname as argument 2
+The **NewHost** script facilitates the addition of a new entry to the `/etc/hosts` file, linking a specified IP address to a given hostname. Upon execution, the script provides feedback on the success or failure of the operation.
 
-The script features validation for IP address format using regular expressions through grep.
+## Usage
 
-USAGE:
+To use the script, follow the format below:
+
+```bash
 sudo newhost "IP" "hostname"
